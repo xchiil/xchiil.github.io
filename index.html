@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- gsap -->
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
     <title>MyPortofolio</title>
@@ -14,7 +17,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #056f6f">
       <div class="container">
-        <a class="navbar-brand" href="#">Pipit Cuprit</a>
+        <a class="navbar-brand" href="#">Fitriani Riani</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +30,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#project">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -39,9 +42,9 @@
     <!-- akhir navbar -->
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/poto.jpg" alt="ucil" width="300px" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Hallo Cuprit</h1>
-      <!-- <p class="lead">u always have place on my heart :)))</p> -->
+      <img src="img/poto.jpg" alt="ucil" width="300px" class="rounded-circle img-thumbnail" data-aos="zoom-in" />
+      <h1 class="display-4">Hallo Riani</h1>
+      <p class="lead">u always have place on my heart :)))</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -53,18 +56,18 @@
     <!-- Akhir Jumbotron -->
     <!-- about -->
     <section id="about">
-      <div class="container">
+      <div class="container" data-aos="fade-down" data-aos-duration="1500">
         <div class="row text-center mb-5">
           <div class="col">
-            <h2>About Cuprit</h2>
+            <h2>About Riani</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis eaque recusandae tempore, quos incidunt accusamus cumque facilis distinctio totam laborum.</p>
+            <p>she is so special.</p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsum animi praesentium, a suscipit culpa?</p>
+            <p>Nothing word can explain Riani :)</p>
           </div>
         </div>
       </div>
@@ -82,47 +85,47 @@
         <div class="container">
             <div class="row text-center mb-5">
               <div class="col">
-                <h2>My Project</h2>
+                <h2>Gallery</h2>
               </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
                     <div class="card text-center">
-                        <img src="img/project/1.jpg" class="card-img-top" alt="img">
+                        <img src="img/project/11.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">SG Pertama nih</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card text-center">
-                        <img src="img/project/2.jpg" class="card-img-top" alt="img">
+                        <img src="img/project/22.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Main Ke rumah pertama kali ni bos</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card text-center">
-                        <img src="img/project/3.jpg" class="card-img-top" alt="img">
+                        <img src="img/project/33.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Anjay Main Ke Jogja</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card text-center">
-                        <img src="img/project/4.jpg" class="card-img-top" alt="img">
+                        <img src="img/project/44.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Anjay Main Ke jogja part 2 tapi hujan</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card text-center">
-                        <img src="img/project/5.jpg" class="card-img-top" alt="img">
+                        <img src="img/project/55.jpg" class="card-img-top" alt="img">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">sama sih main ke jogja, tp hujan juga, kasihan banget</p>
                         </div>
                       </div>
                 </div>
@@ -186,7 +189,15 @@
     <!-- akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+   
+   <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyyjbqKsALpoVKhTf5mt5tpjcn2FbG3wAkJtxB6GLXu-ICIJYyK3eFV7dMDDUrLU3rX/exec';
       const form = document.forms['form-web'];
       const btnKirim = document.querySelector('.btn-kirim');
